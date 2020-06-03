@@ -31,3 +31,6 @@ Test the BBSNet:
     `python BBSNet_test.py --batchsize 10 --gpu_id 0 `
 ## Citation
 Please cite the following paper if you use this repository in your reseach.
+
+## Acknowledgement
+We implement this project based on the code of ‘Cascaded Partial Decoder for Fast and Accurate Salient Object Detection, CVPR2019’ proposed by Wu et al.
