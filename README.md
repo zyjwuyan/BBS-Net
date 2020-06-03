@@ -29,3 +29,5 @@ Train the BBSNet:
 Test the BBSNet:
 
     `python BBSNet_test.py --batchsize 10 --gpu_id 0 `
+## Citation
+Please cite the following paper if you use this repository in your reseach.
