@@ -29,6 +29,16 @@ Train the BBSNet:
 Test the BBSNet:
 
     `python BBSNet_test.py --batchsize 10 --gpu_id 0 `
+## Results
+Test map of the following datasets can be download from [here](https://pan.baidu.com/s/1O-AhThLWEDVgQiPhX3QVYw) [code: qgai ]
+
+|  Dataset  | NJU2K  | NLPR | STERE |DES    |LFSD  |SSD |SIP|
+|  -------  | -----  |----  |-----  |---    |----  |---  |---|
+| S-measure |.921    |.930  |.908   |.933  | .864  | .882|.879 |
+| F-measure |.920    |.918  |.903   |.927  | .859  | .859|.883 |
+| E-measure |.949    |.961  |.942   |.966  | .901  | .919|.922 |
+| MAE       | .035   |.023  |.041   |.021  | .072  | .044|.055 |
+
 ## Citation
 Please cite the following paper if you use this repository in your reseach.
 
