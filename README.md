@@ -28,7 +28,7 @@ Train the BBSNet:
 
 Test the BBSNet:
 
-    `python BBSNet_test.py --batchsize 10 --gpu_id 0 `
+    `python BBSNet_test.py --gpu_id 0 `
 ## Results
 Test map of the following datasets can be download from [here](https://pan.baidu.com/s/1O-AhThLWEDVgQiPhX3QVYw) [code: qgai ]
 
