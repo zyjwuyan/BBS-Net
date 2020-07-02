@@ -39,7 +39,7 @@ models.
     </em>
 </p>
 <p align="center">
-    <img src="./Images/detailed-comparison.png" width="80%"/> <br />
+    <img src="./Images/detailed-comparisons.png" width="80%"/> <br />
  <em>
   Table 1: Quantitative comparison of models using S-measure max F-measure, max E-measureand MAE scores on 7 datasets. 
   </em>
