@@ -53,7 +53,6 @@ models.
 | E-measure |.949    |.961  |.942   |.966  | .901  | .919|.922 |
 | MAE       | .035   |.023  |.041   |.021  | .072  | .044|.055 |
 -->
-
 ### 4.2 Download
 Test map of the above datasets can be download from [here](https://pan.baidu.com/s/1O-AhThLWEDVgQiPhX3QVYw) [code: qgai ]
 ## 5. Citation
