@@ -29,6 +29,9 @@ Python 3.7, Pytorch 0.4.0+, Cuda 10.0, TensorboardX 2.0, opencv-python
 - Test the BBSNet:
 
     `python BBSNet_test.py --gpu_id 0 `
+
+- Evaluate the result maps:
+    You can evaluate the result maps using the tool in [this](http://dpfan.net/d3netbenchmark/).
 ## 4. Results
 ### 4.1 Qualitative Comparison
 <p align="center">
