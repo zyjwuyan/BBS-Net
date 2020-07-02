@@ -1,7 +1,7 @@
 # BBS-Net
 BBS-Net: RGB-D Salient Object Detection with
 a Bifurcated Backbone Strategy Network
-<img src="Images/pipe.png" width="80%"/> <br />
+<img src="Images/pipeline.png" width="80%"/> <br />
  <em> 
     Figure 1: The architecture of BBS-Net.
  </em>
