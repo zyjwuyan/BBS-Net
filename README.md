@@ -44,8 +44,7 @@ models.
 <p align="center">
     <img src="./Images/detailed-comparison.png" width="80%"/> <br />
  <em>
-  Table 1: Quantitative comparison of models using S-measure ($S_/alpha$), max F-measure
-(Fβ), max E-measure (Eξ) and MAE (M) scores on 7 datasets. 
+  Table 1: Quantitative comparison of models using S-measure max F-measure, max E-measureand MAE scores on 7 datasets. 
   </em>
 </p>
 <!--
