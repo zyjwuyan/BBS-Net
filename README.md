@@ -30,6 +30,9 @@ Test the BBSNet:
 
     `python BBSNet_test.py --gpu_id 0 `
 ## Results
+<p align="center">
+    <img src="Images/detailed-comparison.png"/> <br />
+</p>
 Test map of the following datasets can be download from [here](https://pan.baidu.com/s/1O-AhThLWEDVgQiPhX3QVYw) [code: qgai ]
 
 |  Dataset  | NJU2K  | NLPR | STERE |DES    |LFSD  |SSD |SIP|
