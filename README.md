@@ -29,6 +29,8 @@ Python 3.7, Pytorch 0.4.0+, Cuda 10.0, TensorboardX 2.0, opencv-python
 - Test the BBSNet:
 
     `python BBSNet_test.py --gpu_id 0 `
+    
+    The test maps will be saved to './test_maps/'.
 
 - Evaluate the result maps:
     
