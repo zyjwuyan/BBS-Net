@@ -22,11 +22,11 @@ Python 3.7, Pytorch 0.4.0+, Cuda 10.0, TensorboardX 2.0, opencv-python
             
 ## 3. Training & Testing
 
-Train the BBSNet:
+- Train the BBSNet:
 
     `python BBSNet_train.py --batchsize 10 --gpu_id 0 `
 
-Test the BBSNet:
+- Test the BBSNet:
 
     `python BBSNet_test.py --gpu_id 0 `
 ## 4. Results
