@@ -41,8 +41,8 @@ models.
     <img src="Images/detailed-comparison.png"/> <br />
  <em>
   Table 1: Quantitative comparison of models using S-measure (Sα), max F-measure
-(Fβ), max E-measure (Eξ) and MAE (M) scores on 7 datasets. ". The best score in each row is highlighted in bold
-  <\em>
+(Fβ), max E-measure (Eξ) and MAE (M) scores on 7 datasets. 
+  </em>
 </p>
 Test map of the following datasets can be download from [here](https://pan.baidu.com/s/1O-AhThLWEDVgQiPhX3QVYw) [code: qgai ]
 
