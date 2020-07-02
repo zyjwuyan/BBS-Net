@@ -29,7 +29,7 @@ model.eval()
 
 test_datasets = ['NJU2K','NLPR','STERE', 'DES', 'SSD','LFSD','SIP']
 for dataset in test_datasets:
-    save_path = '../RGBDevaluate/BBSNet/BBSNet_ResNet50/' + dataset + '/'
+    save_path = './test_maps/BBSNet/BBSNet_ResNet50/' + dataset + '/'
     if not os.path.exists(save_path):
         os.makedirs(save_path)
     image_root = dataset_path + dataset + '/RGB/'
