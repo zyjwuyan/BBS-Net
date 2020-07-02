@@ -15,5 +15,5 @@ parser.add_argument('--gt_root', type=str, default='../BBS_dataset/RGBD_for_trai
 parser.add_argument('--test_rgb_root', type=str, default='../BBS_dataset/test_in_train/RGB/', help='the test rgb images root')
 parser.add_argument('--test_depth_root', type=str, default='../BBS_dataset/test_in_train/depth/', help='the test depth images root')
 parser.add_argument('--test_gt_root', type=str, default='../BBS_dataset/test_in_train/GT/', help='the test gt images root')
-parser.add_argument('--save_path', type=str, default='./CARNet_cpts/', help='the path to save models and logs')
+parser.add_argument('--save_path', type=str, default='./BBSNet_cpts/', help='the path to save models and logs')
 opt = parser.parse_args()
