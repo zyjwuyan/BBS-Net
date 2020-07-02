@@ -2,11 +2,11 @@
 BBS-Net: RGB-D Salient Object Detection with
 a Bifurcated Backbone Strategy Network
 
-## Requirements
+## 1. Requirements
 
 Python 3.7, Pytorch 0.4.0+, Cuda 10.0, TensorboardX 2.0, opencv-python
 
-## Data Preparation
+## 2. Data Preparation
 
  - Download the raw data from [Here](https://pan.baidu.com/s/1SxBjlTF4Tb74WjuDsRmM3w) [code: yiy1] and trained model (BBSNet.pth) from [Here](https://pan.baidu.com/s/1Fn-Hvdou4DDWcgeTtx081g) [code: dwcp]. Then put them under the following directory:
  
@@ -20,7 +20,7 @@ Python 3.7, Pytorch 0.4.0+, Cuda 10.0, TensorboardX 2.0, opencv-python
              -BBSNet.pth
           ...
             
-## Training & Testing
+## 3. Training & Testing
 
 Train the BBSNet:
 
@@ -29,7 +29,8 @@ Train the BBSNet:
 Test the BBSNet:
 
     `python BBSNet_test.py --gpu_id 0 `
-## Results
+## 4. Results
+### 4.1 Qualitative Comparison
 <p align="center">
     <img src="Images/resultmap.png"/> <br />
  <em> 
@@ -38,23 +39,26 @@ models.
     </em>
 </p>
 <p align="center">
-    <img src="Images/detailed-comparison.png"/> <br />
+    <img src="./Images/detailed-comparison.png"/> <br />
  <em>
-  Table 1: Quantitative comparison of models using S-measure (Sα), max F-measure
+  Table 1: Quantitative comparison of models using S-measure ($S_/alpha$), max F-measure
 (Fβ), max E-measure (Eξ) and MAE (M) scores on 7 datasets. 
   </em>
 </p>
-Test map of the following datasets can be download from [here](https://pan.baidu.com/s/1O-AhThLWEDVgQiPhX3QVYw) [code: qgai ]
-
+<!--
 |  Dataset  | NJU2K  | NLPR | STERE |DES    |LFSD  |SSD |SIP|
 |  -------  | -----  |----  |-----  |---    |----  |---  |---|
 | S-measure |.921    |.930  |.908   |.933  | .864  | .882|.879 |
 | F-measure |.920    |.918  |.903   |.927  | .859  | .859|.883 |
 | E-measure |.949    |.961  |.942   |.966  | .901  | .919|.922 |
 | MAE       | .035   |.023  |.041   |.021  | .072  | .044|.055 |
+-->
 
-## Citation
+### 4.2 Download
+Test map of the above datasets can be download from [here](https://pan.baidu.com/s/1O-AhThLWEDVgQiPhX3QVYw) [code: qgai ]
+## 5. Citation
+
 Please cite the following paper if you use this repository in your reseach.
 
-## Acknowledgement
+## 6. Acknowledgement
 We implement this project based on the code of ‘Cascaded Partial Decoder for Fast and Accurate Salient Object Detection, CVPR2019’ proposed by Wu et al.
