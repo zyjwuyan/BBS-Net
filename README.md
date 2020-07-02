@@ -34,7 +34,7 @@ Python 3.7, Pytorch 0.4.0+, Cuda 10.0, TensorboardX 2.0, opencv-python
 <p align="center">
     <img src="Images/resultmap.png" width="80%"/> <br />
  <em> 
-    Figure 2: Qualitative visual comparison of the proposed model versus 8 SOTA
+    Figure 1: Qualitative visual comparison of the proposed model versus 8 SOTA
 models.
     </em>
 </p>
