@@ -7,6 +7,7 @@ a Bifurcated Backbone Strategy Network
     Figure 1: The architecture of BBS-Net.
  </em>
  </p>
+
 ## 1. Requirements
 
 Python 3.7, Pytorch 0.4.0+, Cuda 10.0, TensorboardX 2.0, opencv-python
