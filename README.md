@@ -32,9 +32,17 @@ Test the BBSNet:
 ## Results
 <p align="center">
     <img src="Images/resultmap.png"/> <br />
+ <em> 
+    Figure 2: Qualitative visual comparison of the proposed model versus 8 SOTA
+models.
+    </em>
 </p>
 <p align="center">
     <img src="Images/detailed-comparison.png"/> <br />
+ <em>
+  Table 1: Quantitative comparison of models using S-measure (Sα), max F-measure
+(Fβ), max E-measure (Eξ) and MAE (M) scores on 7 datasets. ". The best score in each row is highlighted in bold
+  <\em>
 </p>
 Test map of the following datasets can be download from [here](https://pan.baidu.com/s/1O-AhThLWEDVgQiPhX3QVYw) [code: qgai ]
 
