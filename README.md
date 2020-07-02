@@ -1,7 +1,10 @@
 # BBS-Net
 BBS-Net: RGB-D Salient Object Detection with
 a Bifurcated Backbone Strategy Network
-
+<img src="Images/pipe.png" width="80%"/> <br />
+ <em> 
+    Figure 1: The architecture of BBS-Net.
+ </em>
 ## 1. Requirements
 
 Python 3.7, Pytorch 0.4.0+, Cuda 10.0, TensorboardX 2.0, opencv-python
@@ -32,14 +35,14 @@ Test the BBSNet:
 ## 4. Results
 ### 4.1 Qualitative Comparison
 <p align="center">
-    <img src="Images/resultmap.png"/> <br />
+    <img src="Images/resultmap.png" width="80%"/> <br />
  <em> 
     Figure 2: Qualitative visual comparison of the proposed model versus 8 SOTA
 models.
     </em>
 </p>
 <p align="center">
-    <img src="./Images/detailed-comparison.png"/> <br />
+    <img src="./Images/detailed-comparison.png" width="80%"/> <br />
  <em>
   Table 1: Quantitative comparison of models using S-measure ($S_/alpha$), max F-measure
 (Fβ), max E-measure (Eξ) and MAE (M) scores on 7 datasets. 
