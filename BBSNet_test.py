@@ -16,17 +16,22 @@ parser.add_argument('--test_path',type=str,default='../BBS_dataset/RGBD_for_test
 opt = parser.parse_args()
 
 dataset_path = opt.test_path
+
+#set device for test
 if opt.gpu_id=='0':
     os.environ["CUDA_VISIBLE_DEVICES"] = "0"
     print('USE GPU 0')
 elif opt.gpu_id=='1':
     os.environ["CUDA_VISIBLE_DEVICES"] = "1"
     print('USE GPU 1')
+
+#load the model
 model = BBSNet()
 model.load_state_dict(torch.load('./model_pths/BBSNet.pth'))
 model.cuda()
 model.eval()
 
+#test
 test_datasets = ['NJU2K','NLPR','STERE', 'DES', 'SSD','LFSD','SIP']
 for dataset in test_datasets:
     save_path = './test_maps/BBSNet/ResNet50/' + dataset + '/'
