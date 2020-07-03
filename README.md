@@ -72,11 +72,11 @@ Please cite the following paper if you use this repository in your reseach.
 	year={2020}
 	}
 
-# Benchmark RGB-D SOD
+## 6. Benchmark RGB-D SOD
 
 The complete RGB-D SOD benchmark can be found in this page:
 
 http://dpfan.net/d3netbenchmark/
 
-## 6. Acknowledgement
+## 7. Acknowledgement
 We implement this project based on the code of ‘Cascaded Partial Decoder for Fast and Accurate Salient Object Detection, CVPR2019’ proposed by Wu et al.
