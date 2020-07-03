@@ -5,6 +5,8 @@ import torchvision.transforms as transforms
 import random
 import numpy as np
 from PIL import ImageEnhance
+
+#several data augumentation strategies
 def cv_random_flip(img, label,depth):
     flip_flag = random.randint(0, 1)
     # flip_flag2= random.randint(0,1)
@@ -76,6 +78,7 @@ def randomPeper(img):
             img[randX,randY]=255 
     return Image.fromarray(img)  
 
+# dataset for training
 class SalObjDataset(data.Dataset):
     def __init__(self, image_root, gt_root,depth_root, trainsize):
         self.trainsize = trainsize
@@ -154,7 +157,7 @@ class SalObjDataset(data.Dataset):
     def __len__(self):
         return self.size
 
-
+#dataloader for training
 def get_loader(image_root, gt_root,depth_root, batchsize, trainsize, shuffle=True, num_workers=12, pin_memory=True):
 
     dataset = SalObjDataset(image_root, gt_root, depth_root,trainsize)
@@ -165,7 +168,7 @@ def get_loader(image_root, gt_root,depth_root, batchsize, trainsize, shuffle=Tru
                                   pin_memory=pin_memory)
     return data_loader
 
-
+#test dataset and loader
 class test_dataset:
     def __init__(self, image_root, gt_root,depth_root, testsize):
         self.testsize = testsize
