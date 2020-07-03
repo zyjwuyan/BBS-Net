@@ -130,7 +130,7 @@ class BasicConv2d(nn.Module):
         x = self.bn(x)
         return x
 
-#
+#Global Contextual module
 class GCM(nn.Module):
     def __init__(self, in_channel, out_channel):
         super(GCM, self).__init__()
@@ -170,7 +170,7 @@ class GCM(nn.Module):
         x = self.relu(x_cat + self.conv_res(x))
         return x
 
-
+#aggregation of the high-level(teacher) features
 class aggregation_init(nn.Module):
 
     def __init__(self, channel):
@@ -205,6 +205,8 @@ class aggregation_init(nn.Module):
         x = self.conv5(x)
 
         return x
+
+#aggregation of the low-level(student) features
 class aggregation_final(nn.Module):
 
     def __init__(self, channel):
@@ -235,10 +237,8 @@ class aggregation_final(nn.Module):
 
         return x3_2
 
+#Refinement flow
 class Refine(nn.Module):
-    '''
-    Refinement flow
-    '''
     def __init__(self):
         super(Refine,self).__init__()
         self.upsample2 = nn.Upsample(scale_factor=2, mode='bilinear', align_corners=True)
@@ -250,10 +250,12 @@ class Refine(nn.Module):
         x3 = x3+torch.mul(x3,attention)
 
         return x1,x2,x3
-
+    
+#BBSNet
 class BBSNet(nn.Module):
     def __init__(self, channel=32):
         super(BBSNet, self).__init__()
+        
         #Backbone model
         self.resnet = ResNet50('rgb')
         self.resnet_depth=ResNet50('rgbd')
@@ -270,6 +272,7 @@ class BBSNet(nn.Module):
         self.rfb5_2 = GCM(512, channel)
         self.agg2 = aggregation_final(channel)
 
+        #upsample function
         self.upsample = nn.Upsample(scale_factor=8, mode='bilinear', align_corners=True)
         self.upsample4 = nn.Upsample(scale_factor=4, mode='bilinear', align_corners=True)
         self.upsample2 = nn.Upsample(scale_factor=2, mode='bilinear', align_corners=True)
@@ -417,6 +420,8 @@ class BBSNet(nn.Module):
         self.inplanes = planes
 
         return nn.Sequential(*layers)
+    
+    #initialize the weights
     def initialize_weights(self):
         res50 = models.resnet50(pretrained=True)
         pretrained_dict = res50.state_dict()
