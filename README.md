@@ -65,12 +65,12 @@ Test map of the above datasets can be download from [here](https://pan.baidu.com
 
 Please cite the following paper if you use this repository in your reseach.
 
-@inproceedings{fan2020bbsnet,
+	@inproceedings{fan2020bbsnet,
 	title={BBS-Net: RGB-D Salient Object Detection with a Bifurcated Backbone Strategy Network},
 	author={Fan, Deng-Ping and Zhai, Yingjie and Borji, Ali and Shao, Ling and Yang, Jufeng},
 	booktitle={ECCV},
 	year={2020}
-}
+	}
 
 ## 6. Acknowledgement
 We implement this project based on the code of ‘Cascaded Partial Decoder for Fast and Accurate Salient Object Detection, CVPR2019’ proposed by Wu et al.
