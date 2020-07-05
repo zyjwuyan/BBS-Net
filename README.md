@@ -74,7 +74,7 @@ Please cite the following paper if you use this repository in your reseach.
 
 	@inproceedings{fan2020bbsnet,
 	title={BBS-Net: RGB-D Salient Object Detection with a Bifurcated Backbone Strategy Network},
-	author={Fan, Deng-Ping and Zhai, Yingjie and Borji, Ali and Shao, Ling and Yang, Jufeng},
+	author={Fan, Deng-Ping and Zhai, Yingjie and Borji, Ali and Yang, Jufeng and Shao, Ling},
 	booktitle={ECCV},
 	year={2020}
 	}
