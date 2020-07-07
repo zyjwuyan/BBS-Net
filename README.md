@@ -67,7 +67,7 @@ models.
 -->
 
 ### 4.2 Download
-Test map of the above datasets can be download from [here](https://pan.baidu.com/s/1O-AhThLWEDVgQiPhX3QVYw) [code: qgai ]
+Test map of the above datasets can be download from [here](https://pan.baidu.com/s/1O-AhThLWEDVgQiPhX3QVYw) [code: qgai ].
 ## 5. Citation
 
 Please cite the following paper if you use this repository in your reseach.
@@ -78,6 +78,8 @@ Please cite the following paper if you use this repository in your reseach.
 	booktitle={ECCV},
 	year={2020}
 	}
+
+- For more information about BBS-Net, please read the [Manuscript (PDF)](https://arxiv.org/pdf/2007.02713.pdf).
 
 ## 6. Benchmark RGB-D SOD
 
