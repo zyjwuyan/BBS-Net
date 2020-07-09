@@ -79,6 +79,8 @@ def randomPeper(img):
     return Image.fromarray(img)  
 
 # dataset for training
+#The current loader is not using the normalized depth maps for training and test. If we use the normalized depth maps
+#(e.g., 0 represents background and 1 represents foreground.), the performance will be further improved.
 class SalObjDataset(data.Dataset):
     def __init__(self, image_root, gt_root,depth_root, trainsize):
         self.trainsize = trainsize
