@@ -27,6 +27,7 @@ elif opt.gpu_id=='1':
 
 #load the model
 model = BBSNet()
+#Large epoch size may not generalize well. You can choose a good model to load according to the log file and pth files saved in ('./BBSNet_cpts/') when training.
 model.load_state_dict(torch.load('./model_pths/BBSNet.pth'))
 model.cuda()
 model.eval()
