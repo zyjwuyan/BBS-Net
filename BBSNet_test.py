@@ -11,7 +11,7 @@ from data import test_dataset
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--testsize', type=int, default=352, help='testing size')
-parser.add_argument('--gpu_id', type=int, default=0, help='select gpu id')
+parser.add_argument('--gpu_id', type=str, default='0', help='select gpu id')
 parser.add_argument('--test_path',type=str,default='../BBS_dataset/RGBD_for_test/',help='test dataset path')
 opt = parser.parse_args()
 
