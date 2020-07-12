@@ -52,7 +52,7 @@ test_loader = test_dataset(test_image_root, test_gt_root,test_depth_root, opt.tr
 total_step = len(train_loader)
 
 logging.basicConfig(filename=save_path+'log.log',format='[%(asctime)s-%(filename)s-%(levelname)s:%(message)s]', level = logging.INFO,filemode='a',datefmt='%Y-%m-%d %I:%M:%S %p')
-logging.info("CARNet-Train")
+logging.info("BBSNet-Train")
 logging.info("Config")
 logging.info('epoch:{};lr:{};batchsize:{};trainsize:{};clip:{};decay_rate:{};load:{};save_path:{};decay_epoch:{}'.format(opt.epoch,opt.lr,opt.batchsize,opt.trainsize,opt.clip,opt.decay_rate,opt.load,save_path,opt.decay_epoch))
 
