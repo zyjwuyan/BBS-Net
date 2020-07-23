@@ -78,7 +78,9 @@ models.
 </p>
 
 ### 4.3 Download
-Test map of the above datasets can be download from [here](https://pan.baidu.com/s/1O-AhThLWEDVgQiPhX3QVYw) [code: qgai ].
+ - Test maps of the above datasets (ResNet50 backbone) can be download from [here](https://pan.baidu.com/s/1O-AhThLWEDVgQiPhX3QVYw) [code: qgai ].
+ - Test maps of vgg16 and vgg19 backbones of our model can be  download from [here](https://pan.baidu.com/s/1_hG3hC2Fpt1cbAWuPrHEPA) [code: zuds ].
+ - Test maps of DUT-RGBD dataset can be downloaded from [here](https://pan.baidu.com/s/15oc_-nwEKNiU1C9WRho5lg) [code: 3nme ].
 ## 5. Citation
 
 Please cite the following paper if you use this repository in your reseach.
