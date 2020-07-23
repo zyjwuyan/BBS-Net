@@ -68,7 +68,16 @@ models.
 | MAE       | .035   |.023  |.041   |.021  | .072  | .044|.055 |
 -->
 
-### 4.2 Download
+### 4.2 Results of multiple backbones
+
+<p align="center">
+    <img src="./Images/backbone_result.png" width="80%"/> <br />
+ <em>
+  Table 2: Performance comparison using different backbones. 
+  </em>
+</p>
+
+### 4.3 Download
 Test map of the above datasets can be download from [here](https://pan.baidu.com/s/1O-AhThLWEDVgQiPhX3QVYw) [code: qgai ].
 ## 5. Citation
 
