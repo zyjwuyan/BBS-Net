@@ -92,7 +92,7 @@ Please cite the following paper if you use this repository in your reseach.
 	year={2020}
 	}
 
-- For more information about BBS-Net, please read the [Manuscript (PDF)](https://arxiv.org/pdf/2007.02713.pdf) ([Chinese version](https://pan.baidu.com/s/1zxni7QjBiewwA1Q-m7Cqfg)[code:qr4a]).
+- For more information about BBS-Net, please read the [Manuscript (PDF)](https://arxiv.org/pdf/2007.02713.pdf) ([Chinese version](https://pan.baidu.com/s/1zxni7QjBiewwA1Q-m7Cqfg)[code:0r4a]).
 
 ## 6. Benchmark RGB-D SOD
 
