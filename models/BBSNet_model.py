@@ -203,7 +203,7 @@ class Refine(nn.Module):
         self.upsample2 = nn.Upsample(scale_factor=2, mode='bilinear', align_corners=True)
 
     def forward(self, attention,x1,x2,x3):
-
+        #Note that there is an error in the manuscript. In the paper, the refinement strategy is depicted as ""f'=f*S1"", it should be ""f'=f+f*S1"".
         x1 = x1+torch.mul(x1, self.upsample2(attention))
         x2 = x2+torch.mul(x2,self.upsample2(attention))
         x3 = x3+torch.mul(x3,attention)
