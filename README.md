@@ -27,7 +27,7 @@ Python 3.7, Pytorch 0.4.0+, Cuda 10.0, TensorboardX 2.0, opencv-python
              -BBSNet.pth
           ...
           
- - Note that the depth maps of the raw data above are not normalized. If you train and test using the normalized depth maps (can be downloaded from [here](http://dpfan.net/d3netbenchmark/)), the performance will be improved.
+ - Note that the depth maps of the raw data above are not normalized. If you train and test using the normalized depth maps, the performance will be improved.
 	  
 ## 3. Training & Testing
 
