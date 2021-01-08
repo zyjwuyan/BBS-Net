@@ -45,7 +45,7 @@ Python 3.7, Pytorch 0.4.0+, Cuda 10.0, TensorboardX 2.0, opencv-python
     
     You can evaluate the result maps using the tool in [here](http://dpfan.net/d3netbenchmark/).
     
--If you need the codes of VGG16 and VGG19 backbones, please send to the email (zhailyingjier@163.com). Please provide your Name & Institution. Please note the code can be only used for research purpose.
+- If you need the codes of VGG16 and VGG19 backbones, please send to the email (zhaiyingjier@163.com). Please provide your Name & Institution. Please note the code can be only used for research purpose.
 ## 4. Results
 ### 4.1 Qualitative Comparison
 <p align="center">
