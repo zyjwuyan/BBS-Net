@@ -43,7 +43,7 @@ Python 3.7, Pytorch 0.4.0+, Cuda 10.0, TensorboardX 2.0, opencv-python
 
 - Evaluate the result maps:
     
-    You can evaluate the result maps using the tool in [Matlab Version](http://dpfan.net/d3netbenchmark/) or [Python_GPU Version](https://github.com/zyjwuyan/SOD_Evaluation_Metrics).
+    You can evaluate the result maps using the tool in [Python_GPU Version](https://github.com/zyjwuyan/SOD_Evaluation_Metrics) or [Matlab Version](http://dpfan.net/d3netbenchmark/).
     
 - If you need the codes using VGG16 and VGG19 backbones, please send to the email (zhaiyingjier@163.com). Please provide your Name & Institution. Please note the code can be only used for research purpose.
 ## 4. Results
