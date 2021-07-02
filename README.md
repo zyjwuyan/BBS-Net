@@ -15,7 +15,7 @@ Python 3.7, Pytorch 0.4.0+, Cuda 10.0, TensorboardX 2.0, opencv-python
 
 ## 2. Data Preparation
 
- - Download the raw data from [Here](https://pan.baidu.com/s/1SxBjlTF4Tb74WjuDsRmM3w) [code: yiy1] and trained model (BBSNet.pth) from [Here](https://pan.baidu.com/s/1Fn-Hvdou4DDWcgeTtx081g) [code: dwcp]. Then put them under the following directory:
+ - Download the raw data from [Baidu Pan](https://pan.baidu.com/s/1SxBjlTF4Tb74WjuDsRmM3w) [code: yiy1] or [Google Drive](https://drive.google.com/drive/folders/1gIMun9bM5JDrs98sLjXt7XoFCdvy1DXF?usp=sharing) and trained model (BBSNet.pth) from [Here](https://pan.baidu.com/s/1Fn-Hvdou4DDWcgeTtx081g) [code: dwcp]. Then put them under the following directory:
  
         -BBS_dataset\ 
           -RGBD_for_train\  
