@@ -95,7 +95,7 @@ Please cite the following paper if you use this repository in your reseach.
 	}
 
 - For more information about BBS-Net, please read the [Manuscript (PDF)](https://arxiv.org/pdf/2007.02713.pdf) ([Chinese version](https://pan.baidu.com/s/1zxni7QjBiewwA1Q-m7Cqfg)[code:0r4a]).
-- Note that there is a wrong in the Fig.3 (c) of the ECCV version. The second and third BConv3 in the first column should be BConv5 and BConv7 respectively.
+- Note that there is a wrong in the Fig.3 (c) of the ECCV version. The second and third BConv3 in the first column of the figure should be BConv5 and BConv7 respectively.
 
 ## 6. Benchmark RGB-D SOD
 
